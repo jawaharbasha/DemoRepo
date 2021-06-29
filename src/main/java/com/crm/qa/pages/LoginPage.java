@@ -46,9 +46,7 @@ public class LoginPage extends TestBase{
 	@FindBy(xpath="//img[contains(@class,'img-responsive')]")
 	WebElement we_loginPageImg;
 	
-	@FindBy(xpath="//img[contains(@class,'img-responsivechumma')]")
-	WebElement we_loginPageImgchumma;
-		
+			
 	
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
